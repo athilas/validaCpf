@@ -20,7 +20,8 @@ public class Principal{
 				case 1:
 					System.out.print("\nDigite o cpf somente numeros: ");
 					cpf = ler.next();
-					Valida.teste(cpf);
+					if(Numero.teste(cpf)) Valida.teste(cpf);
+					else System.out.println("Contem caracteres nao numericos. Teste abortado");
 					j =0;
 					break;
 				case 2:

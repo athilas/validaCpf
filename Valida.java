@@ -34,8 +34,6 @@ public class Valida{
 		d0 = d2%11;
 		d2= 11-d0;
 		if(d2>9) d2 =0;
-		System.out.print(d1);
-		System.out.println(d2);
 		if(d1 == (Integer.parseInt(String.valueOf(digitos[9]))) && d2==(Integer.parseInt(String.valueOf(digitos[10])))) System.out.println("CPF valido!!");
 		else System.out.println("CPF Invalido");
 	}
